@@ -16,9 +16,10 @@ export const CardContainer = styled.section`
     border-radius: 10px 0px 0px 10px;
   }
   .card-content {
-    width: 100%;
+    /* width: 100%; */
     padding: 0 20px 20px;
   }
+
   .card-title {
     font-size: 1.5rem;
     font-weight: bold;
@@ -28,5 +29,9 @@ export const CardContainer = styled.section`
   .description {
     text-align: justify;
     color: var(--very-light-pink);
+  }
+
+  .links a {
+    cursor: pointer;
   }
 `;

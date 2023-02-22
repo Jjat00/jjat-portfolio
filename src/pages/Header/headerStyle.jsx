@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--primary-color);
+  box-shadow: 0px 0px 10px rgba(0, 217, 255, 0.5);
+  z-index: 9999;
+
   nav {
-    width: 100%;
-    position: fixed;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 14%;
-    background-color: var(--primary-color);
     height: 80px;
-    box-shadow: 0px 0px 10px rgba(0, 217, 255, 0.5);
   }
   ul {
     display: flex;
@@ -35,6 +39,7 @@ export const HeaderContainer = styled.header`
   }
   .logo h2 {
     font-size: 2rem;
+    /* margin: 0 0 0 100px; */
     font-weight: bold;
     color: var(--white);
   }

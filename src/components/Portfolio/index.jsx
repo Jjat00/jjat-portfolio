@@ -13,6 +13,8 @@ const Portfolio = ({ contentCards }) => {
             img={content.img}
             description={content.description}
             technologies={content.technologies}
+            code={content.code}
+            website={content.website}
           />
         ))}
       </div>

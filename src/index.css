@@ -6,19 +6,11 @@
   --primary-color: #191c32;
   /* --primary-color: #000000; */
 }
-* {
+
+body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-main {
-  width: 70vw;
-  margin: 0 auto;
-  padding: 100px 0;
-}
-
-body {
   background-color: var(--primary-color);
 }

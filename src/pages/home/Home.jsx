@@ -5,14 +5,16 @@ import Portfolio from "../../components/Portfolio";
 import Header from "../Header";
 import Footer from "../Footer";
 // Contents
-import { contentCards } from "../../components/Card/contentCards";
-import { contentAboutMe } from "../../components/AboutMe/contentAbutMe";
+import contentCards from "../../components/Card/contentCards";
+import contentAboutMe from "../../components/AboutMe/contentAbutMe";
+// Styles
+import { MainContainer } from "./HomeStyle";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Header />
-      <main>
+      <MainContainer>
         <AboutMe
           name={contentAboutMe.name}
           lastname={contentAboutMe.lastname}
@@ -23,9 +25,9 @@ const Home = () => {
         />
 
         <Portfolio contentCards={contentCards} />
-      </main>
+      </MainContainer>
       <Footer />
-    </>
+    </div>
   );
 };
 

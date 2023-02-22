@@ -2,7 +2,7 @@ import { CardContainer } from "./cardStyle";
 
 import capturaDeptherm from "./../../images/captura-deptherm.png";
 
-const Card = ({ title, img, description, technologies }) => {
+const Card = ({ title, img, description, technologies, code, website }) => {
   return (
     <CardContainer>
       <div className="card-img">
@@ -15,7 +15,9 @@ const Card = ({ title, img, description, technologies }) => {
           <span>Technologies:</span> {technologies},
         </p>
         <div className="links">
-          <i className="fa-brands fa-github"></i>
+          <a href={code} target="_blank">
+            <i className="fa-brands fa-github"></i>
+          </a>
         </div>
       </div>
     </CardContainer>

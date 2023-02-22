@@ -6,7 +6,6 @@ export const PortfolioContainer = styled.section`
   flex-direction: column;
   padding-top: 80px;
   overflow-wrap: 20px;
-  background-color: var(--primary-color);
 
   h1 {
     font-size: 3rem;
@@ -25,7 +24,6 @@ export const PortfolioContainer = styled.section`
     padding: 100px 0;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-color);
   }
 
   .card {
