@@ -7,23 +7,18 @@ const Header = () => {
       <nav>
         <div className="logo">
           <h2>
-            <span>JJ</span>AT
+            <span>Jaime</span> Aza
           </h2>
         </div>
         <ul className="menu">
           <li>
-            <a href="/" className="active">
-              Home
-            </a>
+            <a href="/#">Inicio</a>
           </li>
           <li>
-            <a href="/#about">About me</a>
+            <a href="/#about">Sobre mí</a>
           </li>
           <li>
-            <a href="/#briefcase">Briefcase</a>
-          </li>
-          <li>
-            <a href="/">Contact</a>
+            <a href="/#briefcase">Portafolio</a>
           </li>
         </ul>
         <img src={iconMenu} alt="icon" className="icon" />

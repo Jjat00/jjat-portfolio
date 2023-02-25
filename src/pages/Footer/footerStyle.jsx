@@ -14,12 +14,12 @@ export const FooterContainer = styled.footer`
     text-align: center;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
     color: var(--secondary-color);
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: var(--very-light-pink);
   }
   .social-media {
@@ -29,7 +29,7 @@ export const FooterContainer = styled.footer`
   }
   .social-media a {
     color: var(--primary-color);
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 10px 10px;
     text-decoration: none;
   }

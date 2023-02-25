@@ -1,33 +1,33 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.section`
+  margin: 200px auto;
+  height: 100%;
+  display: grid;
+  background-color: var(--primary-color);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  align-items: center;
+  justify-items: space-between;
+  padding: 80px 0;
+  overflow: hidden;
+
   span {
     color: var(--secondary-color);
   }
 
-  /* max-width: 1200px; */
-  /* min-width: 500px; */
-  margin: 0 auto;
-  height: 70vh;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  align-items: center;
-  justify-items: space-between;
-  padding: 80px 0;
-
   .info h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     /* text-align: center; */
-    font-weight: bold;
+    font-weight: 700;
     color: var(--white);
     margin: 20px 0;
   }
 
   .info p {
-    text-align: justify;
+    /* text-align: justify; */
     color: var(--very-light-pink);
     font-size: var(--md);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 30px 0;
   }
 
@@ -35,13 +35,15 @@ export const InfoContainer = styled.section`
     width: 70%;
     height: auto;
     border: 3px solid var(--secondary-color);
-    box-shadow: 0px 0px 10px rgba(3, 217, 255, 0.9);
+    box-shadow: 0px 0px 10px var(--secondary-color);
     border-radius: 70%;
     background-color: var(--primary-color);
     justify-self: end;
   }
 
   @media (max-width: 1142px) {
+    margin: 20px auto;
+
     .img-jjat {
       justify-self: center;
     }
@@ -54,7 +56,7 @@ export const InfoContainer = styled.section`
     border-radius: 20px;
     margin-top: 10px;
     cursor: pointer;
-    box-shadow: 0px 0px 10px rgba(3, 217, 255, 0.9);
+    box-shadow: 0px 0px 10px var(--secondary-color);
   }
   .primary-button:hover {
     background-color: var(--white);
@@ -67,28 +69,33 @@ export const InfoContainer = styled.section`
 export const AboutMeContainer = styled.section`
   /* width: 70vw; */
   display: grid;
-  padding: 80px 0;
-  height: 70vh;
-  margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding: 200px 0;
+  height: 100%;
+  margin: 100px auto;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   align-items: center;
   justify-items: space-between;
+  background-color: var(--primary-color);
+  overflow: hidden;
 
   .img-jjat2 {
     width: 70%;
     height: auto;
     border: 3px solid var(--secondary-color);
-    box-shadow: 0px 0px 10px rgba(3, 217, 255, 0.9);
+    box-shadow: 0px 0px 10px var(--secondary-color);
     border-radius: 50%;
   }
   @media (max-width: 1142px) {
+    margin: 20px auto;
+
     .img-jjat2 {
       justify-self: center;
+      margin: 30px 0;
     }
   }
 
   .info-about-me h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: bold;
     color: var(--white);
     margin: 0;
@@ -102,9 +109,8 @@ export const AboutMeContainer = styled.section`
   }
 
   .info-about-me p {
-    text-align: justify;
     color: var(--very-light-pink);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .content-about {

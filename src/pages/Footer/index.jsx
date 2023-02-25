@@ -13,12 +13,6 @@ const Footer = () => {
           <a href="/">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="/">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a href="/">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
         </div>
       </footer>
     </FooterContainer>

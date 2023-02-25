@@ -1,6 +1,7 @@
 // Components
 import AboutMe from "../../components/AboutMe";
 import Portfolio from "../../components/Portfolio";
+import ParticleBackground from "../../components/ParticleBackground";
 // Pages
 import Header from "../Header";
 import Footer from "../Footer";
@@ -13,6 +14,7 @@ import { MainContainer } from "./HomeStyle";
 const Home = () => {
   return (
     <div>
+      <ParticleBackground />
       <Header />
       <MainContainer>
         <AboutMe
