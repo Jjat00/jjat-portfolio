@@ -20,8 +20,9 @@ export const HeaderContainer = styled.header`
     height: 80px;
   }
   ul {
+    margin-left: -50px;
     display: flex;
-    align-items: center;
+    justify-content: left;
     list-style: none;
   }
   ul li a {
@@ -51,5 +52,14 @@ export const HeaderContainer = styled.header`
   }
   .icon {
     display: none;
+  }
+
+  @media (max-width: 480px) {
+    .logo {
+      display: none;
+    }
+    nav {
+      justify-content: left;
+    }
   }
 `;

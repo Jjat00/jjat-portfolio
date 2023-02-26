@@ -5,6 +5,7 @@
   --secondary-color: #d01657;
   --primary-color: #000000;
   /* --primary-color: #000000; */
+  color-scheme: light dark;
 }
 
 html {
