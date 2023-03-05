@@ -36,8 +36,14 @@ export const CardContainer = styled.section`
     color: var(--very-light-pink);
   }
 
+  .description span {
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+
   .links a {
     cursor: pointer;
     font-size: 4rem;
+    margin: 0 10px;
   }
 `;

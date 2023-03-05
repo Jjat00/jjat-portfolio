@@ -1,33 +1,33 @@
 [
   {
-    "img": "./../../images/captura-deptherm.png",
-    "title": "DEPTHERM-INSPECTION",
-    "description": "Deptherm es una aplicación para inspección termográfica, que ofrece herramientas como: la calibración intrínseca y extrínseca de cámaras, fusión de imágenes rgb-térmica, rgb-profundidad, térmica-profundidad, rgb-térmica-profundidad, visualización 2D y 3D. Esto con el fin de realizar inspección termográfica",
-    "technologies": "Python, Vedo, Numpy, OpenCV, Kinect camera, PyQT, PostresSQL, Qt Designer, git, github.",
-    "code": "https://github.com/Jjat00/Deptherm-Inspection",
-    "website": "https://github.com/Jjat00/Deptherm-Inspection"
+    "img": "https://i.ibb.co/Y7F31kS/lofi-landing.jpg",
+    "title": "PÁGINA DE LOFI CODE",
+    "description": "En este proyecto es un sitio web sencillo, sin usar ninguna libreria. Por medio del API de youtube se muestran un listado de recomendaciones de Lofi Code, el sitio es totolmente responsivo y está desplegado usando github pages.",
+    "technologies": "HTML5, Javascript, CSS.",
+    "code": "https://github.com/Jjat00/lofi-code-landing",
+    "website": "https://jjat00.github.io/lofi-code-landing"
   },
   {
-    "img": "./../../images/captura-deptherm.png",
-    "title": "DEPTHERM-INSPECTION",
-    "description": "Deptherm es una aplicación para inspección termográfica. Ofrece herramientas como la calibración de cámaras, fusión de imágenes rgb-térmica, rgb-profundidadv se realizar inspección termográfica. Tecnologías: Python, Vedo, Numpy, OpenCV, Kinect camera, PyQT, PostresSQL, Qt Designer, git, github.",
-    "technologies": "Python, css",
-    "code": "https://github.com/Jjat00/Deptherm-Inspection",
-    "website": "https://github.com/Jjat00/Deptherm-Inspection"
+    "img": "https://i.ibb.co/3vMrLsj/batatabit.jpg",
+    "title": "BATATABIT",
+    "description": "Batatabit es una web page realizada con mobile first, el diseño inicial estaba realizado en figma y se hizo la maquetación de la página. El enfoque de esta página es el uso de css, y se usó la metodología de nomenclatura BEM.",
+    "technologies": "HTML5, CSS.",
+    "code": "https://github.com/Jjat00/batatabit",
+    "website": "https://jjat00.github.io/batatabit/"
   },
   {
-    "img": "./../../images/captura-deptherm.png",
-    "title": "DEPTHERM-INSPECTION",
-    "description": "Deptherm es una aplicación para inspección termográfica. Ofrece herramientas como la calibración de cámaras, fusión de imágenes rgb-térmica, rgb-profundidad, térmica-profundidad, rgb-térmica-profundidad, visualización 2D y 3D. Todo esto con el térmica-profundidad, rgb-térmica-profundidad, visualización 2D y 3D. Todo esto con el fin se realizar inspección termográfica. Tecnologías: Python, Vedo, Numpy, OpenCV, Kinect camera, PyQT, PostresSQL, Qt Designer, git, github.",
-    "technologies": "Python, css",
-    "code": "https://github.com/Jjat00/Deptherm-Inspection",
-    "website": "https://github.com/Jjat00/Deptherm-Inspection"
+    "img": "https://i.ibb.co/h2DC2pk/tutorial-color-point-cloud.jpg",
+    "title": "TUTORIAL DE FUSIÓN DE IMÁGENES RGB CON IMÁGENES DE PROFUNDIDAD",
+    "description": "En esta página se muestra la teoria y un tutorial para generar una nube de puntos a partir de imágenes de profunidad, también se muestra como asignar color a la nube de puntos, el tutorial está acompañado con scripts realizados en python.",
+    "technologies": "Python, Computer vision, Numpy, OpenCV, Freenect, HTML5, CSS, Javascript.",
+    "code": "https://github.com/Jjat00/web-page-depth-to-point-cloud",
+    "website": "https://jjat00.github.io/web-page-depth-to-point-cloud/"
   },
   {
-    "img": "./../../images/captura-deptherm.png",
+    "img": "https://i.ibb.co/9wyYdYg/captura-deptherm.png",
     "title": "DEPTHERM-INSPECTION",
-    "description": "Deptherm es una aplicación para inspección termográfica. Ofrece herramientas como la calibración de cámaras, fusión de imágenes rgb-térmica, rgb-profundidad, térmica-profundidad, rgb-térmica-profundidad, visualización 2D y 3D. Todo esto con el fin se realizar inspección termográfica. Tecnologías: Python, Vedo, Numpy, OpenCV, Kinect camera, PyQT, PostresSQL, Qt Designer, git, github.",
-    "technologies": "Python, css",
+    "description": "Deptherm es una aplicación para inspección termográfica. Ofrece herramientas como la calibración de cámaras, fusión de imágenes rgb-térmica, rgb-profundidad, térmica-profundidad, rgb-térmica-profundidad, visualización 2D y 3D. Todo esto con el fin se realizar inspección termográfica 3D.",
+    "technologies": "Python, Vedo, Numpy, OpenCV, Kinect camera, PyQT, PostresSQL, Qt Designer.",
     "code": "https://github.com/Jjat00/Deptherm-Inspection",
     "website": "https://github.com/Jjat00/Deptherm-Inspection"
   }

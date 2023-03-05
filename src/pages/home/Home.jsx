@@ -3,8 +3,8 @@ import AboutMe from "../../components/AboutMe";
 import Portfolio from "../../components/Portfolio";
 import ParticleBackground from "../../components/ParticleBackground";
 // Pages
-import Header from "../Header";
-import Footer from "../Footer";
+import Header from "./../../components/Header";
+import Footer from "./../../components/Footer";
 // Contents
 import contentCards from "../../components/Card/contentCards";
 import contentAboutMe from "../../components/AboutMe/contentAbutMe";
