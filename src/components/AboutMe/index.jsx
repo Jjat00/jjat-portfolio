@@ -13,7 +13,7 @@ const AboutMe = ({
       <InfoContainer>
         <div className="info">
           <h1>
-            Soy <span>{name}</span> {lastname}
+            <span>{name}</span> {lastname}
           </h1>
           <p>{information}</p>
         </div>

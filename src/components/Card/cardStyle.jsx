@@ -10,7 +10,16 @@ export const CardContainer = styled.section`
   border-radius: 10px;
   box-shadow: 0 0 10px var(--secondary-color);
   overflow: hidden;
-  height: 700px;
+  height: 760px;
+
+  &:hover {
+    box-shadow: 0 0 20px var(--secondary-color);
+    /* background-color: #fff; */
+
+    .card-title {
+      color: var(--secondary-color);
+    }
+  }
 
   .card-img {
     width: 100%;
