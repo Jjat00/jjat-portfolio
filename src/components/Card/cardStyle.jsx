@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardContainer = styled.section`
+export const CardContainer = styled.article`
   display: flex;
   flex-direction: column;
   justify-content: center;
