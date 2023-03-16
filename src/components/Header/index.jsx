@@ -18,7 +18,7 @@ const Header = () => {
             <a href="/#about">Sobre mí</a>
           </li>
           <li>
-            <a href="/#briefcase">Portafolio</a>
+            <a href="/#briefcase">Proyectos</a>
           </li>
         </ul>
         <img src={iconMenu} alt="icon" className="icon" />

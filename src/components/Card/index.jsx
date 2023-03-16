@@ -13,10 +13,12 @@ const Card = ({ title, img, description, technologies, code, website }) => {
       </div>
       <div className="links">
         <a href={code} target="_blank">
-          <i className="fa-brands fa-github"></i>
+          code
+          {/* <i className="fa-brands fa-github"></i> */}
         </a>
         <a href={website} target="_blank">
-          <i className="fa fa-globe" aria-hidden="true"></i>
+          website
+          {/* <i className="fa fa-globe" aria-hidden="true"></i> */}
         </a>
       </div>
     </CardContainer>

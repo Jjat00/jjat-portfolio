@@ -7,7 +7,6 @@ export const FooterContainer = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--white);
 
   h1,
   h2 {
@@ -28,7 +27,7 @@ export const FooterContainer = styled.footer`
     align-items: center;
   }
   .social-media a {
-    color: var(--primary-color);
+    color: #fff;
     font-size: 3rem;
     padding: 10px 10px;
     text-decoration: none;

@@ -6,34 +6,44 @@ export const CardContainer = styled.article`
   justify-content: center;
   align-items: center;
   margin: 20px;
-  min-width: 300px;
+  min-width: 310px;
+  max-width: 500px;
   border-radius: 10px;
-  box-shadow: 0 0 10px var(--secondary-color);
+  background-color: #1a1a1a;
+  /* box-shadow: 0 0 10px var(--secondary-color); */
   overflow: hidden;
-  height: 760px;
+  height: 500px;
+  position: relative;
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 
   &:hover {
-    box-shadow: 0 0 20px var(--secondary-color);
-    /* background-color: #fff; */
-
+    background-color: #242424;
     .card-title {
       color: var(--secondary-color);
     }
   }
 
   .card-img {
+    position: absolute;
+    top: 0;
     width: 100%;
-    height: 60%;
+    height: 40%;
     object-fit: cover;
   }
 
   .card-content {
-    padding: 0 20px;
+    position: absolute;
+    top: 40%;
+    padding: 0 10px;
   }
 
   .card-title {
+    text-align: center;
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 500;
     color: var(--white);
     margin: 10px 0;
   }
@@ -41,7 +51,8 @@ export const CardContainer = styled.article`
   .description {
     text-align: left;
     font-size: 1.5rem;
-    margin: 0 20px 10px;
+    line-height: 2.3rem;
+    margin: 0 10px 10px;
     color: var(--very-light-pink);
   }
 
@@ -50,9 +61,22 @@ export const CardContainer = styled.article`
     font-weight: bold;
   }
 
+  .links {
+    position: absolute;
+    bottom: 20px;
+  }
+
   .links a {
     cursor: pointer;
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .links a:first-child {
+    color: #e6dd62;
+  }
+  .links a:nth-child(2) {
+    color: #e6627a;
   }
 `;

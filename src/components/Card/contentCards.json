@@ -1,56 +1,64 @@
 [
   {
+    "img": "https://i.ibb.co/LRDwGrr/sensor-optmization.jpg",
+    "title": "Optmización de Ubicación de Camaras de Seguridad",
+    "description": "Determina estratégicamente las posiciones de cámaras de seguridad para cubrir todos los puntos de interés en un área geográfica específica.",
+    "technologies": "React.js, Mapbox.js, Styled component, Python, Flask, Sklearn.",
+    "code": "/",
+    "website": "/"
+  },
+  {
     "img": "https://i.ibb.co/Y7F31kS/lofi-landing.jpg",
-    "title": "PÁGINA DE LOFI CODE",
-    "description": "En este proyecto es un sitio web sencillo, sin usar ninguna libreria. Por medio del API de youtube se muestran un listado de recomendaciones de Lofi Code, el sitio es totolmente responsivo y está desplegado usando github pages.",
+    "title": "Lofi Code",
+    "description": "Un sitio web sencillo, sin usar librerias. Por medio del API de youtube se muestra un listado de recomendaciones de Lofi Code.",
     "technologies": "HTML5, Javascript, CSS, Youtube API.",
     "code": "https://github.com/Jjat00/lofi-code-landing",
     "website": "https://jjat00.github.io/lofi-code-landing"
   },
   {
     "img": "https://i.ibb.co/3vMrLsj/batatabit.jpg",
-    "title": "BATATABIT",
-    "description": "Batatabit es una web page realizada con mobile first, el diseño inicial estaba realizado en figma y se hizo la maquetación de la página. El enfoque de esta página es el uso de css, y se usó la metodología de nomenclatura BEM.",
+    "title": "Batatabit",
+    "description": "Web page realizada usando mobile first, se hizo la maquetación de la página a partir del diseño en figma. Para el estilo se usó la metodología de nomenclatura BEM.",
     "technologies": "HTML5, CSS.",
     "code": "https://github.com/Jjat00/batatabit",
     "website": "https://jjat00.github.io/batatabit/"
   },
   {
-    "img": "https://i.ibb.co/Tcq34TK/green-dragon2.jpg",
-    "title": "GREEN DRAGON",
-    "description": "Es una app que permite recolectar información de inventario e inspecciones en el campo. También permite la detección y cuantificación de emisiones de gas natural, así como el establecimiento de líneas base para la comparación y evaluación de mejora continua de la prevención y el control integral de dichas fugas de gas natural.",
-    "technologies": "React.js, Node.js, Python, Flask, Express.js, AWS, S3, EC2, Sequelize, PostgreSQL, MongoDB, Numpy, Flask, Redux, SWR, Styled components, Mongoose, Docker, Mapbox.js.",
+    "img": "https://i.ibb.co/WnB6ZVw/greendragon.jpg",
+    "title": "Green Dragon",
+    "description": "Recolecta información de inventario e inspecciones de campo, detecta y cuantifica emisiones de gas, y establece líneas base para la evaluación de la prevención y control de fugas.",
+    "technologies": "React, Node, Python, Flask, Express, S3, EC2, PostgreSQL, MongoDB, Flask, Redux, SWR, Docker, Mapbox.js.",
     "code": "/",
     "website": "/"
   },
   {
     "img": "https://i.ibb.co/h2DC2pk/tutorial-color-point-cloud.jpg",
-    "title": "TUTORIAL FUSIÓN IMÁGEN RGB CON IMÁGEN DE PROFUNDIDAD",
-    "description": "En esta página se muestra la teoria y un tutorial para generar una nube de puntos a partir de imágenes de profunidad, también se muestra como asignar color a la nube de puntos, el tutorial está acompañado con scripts realizados en python.",
+    "title": "Fusión de Imágenes RGB y de Profundidad.",
+    "description": "Presenta la teoría para generar una nube de puntos a partir de imágenes de profundidad, cómo asignar color a la nube de puntos y proporciona scripts en Python.",
     "technologies": "HTML5, CSS, Javascript, Python, Numpy, OpenCV, Freenect.",
     "code": "https://github.com/Jjat00/web-page-depth-to-point-cloud",
     "website": "https://jjat00.github.io/web-page-depth-to-point-cloud/"
   },
   {
     "img": "https://i.ibb.co/9wyYdYg/captura-deptherm.png",
-    "title": "DEPTHERM-INSPECTION",
-    "description": "Deptherm es una aplicación para inspección termográfica. Ofrece herramientas como la calibración de cámaras, fusión de imágenes rgb-térmica, rgb-profundidad, térmica-profundidad, rgb-térmica-profundidad, visualización 2D y 3D. Todo esto con el fin se realizar inspección termográfica 3D.",
+    "title": "Deptherm Inspection",
+    "description": "Permite hacer inspección termográfica en 3D. también permete hacer calibración de cámaras, fusión de imágenes rgb-térmica, rgb-profundidad, térmica-profundidad, rgb-térmica-profundidad.",
     "technologies": "Python, Vedo, Numpy, OpenCV, Kinect camera, PyQT, PostresSQL, Qt Designer.",
     "code": "https://github.com/Jjat00/Deptherm-Inspection",
     "website": "https://github.com/Jjat00/Deptherm-Inspection"
   },
   {
     "img": "https://i.ibb.co/W5Q38Qb/nural-network-05.jpg",
-    "title": "CLASIFICADOR USANDO REDES CONVOLUCIONALES",
-    "description": "Se ha implementado una red neuronal convolucional capaz de clasificar cinco tipos de sanitarios, correspondientes a las referencias A, B, C, D y E. El objetivo de esta implementación es facilitar el proceso de etiquetado durante la producción de los sanitarios.",
+    "title": "Clasificador Usando Redes Convolusionales",
+    "description": "CNN que clasifica 5 tipos de sanitarios (A, B, C, D y E) para facilitar el etiquetado durante la producción de los sanitarios.",
     "technologies": "Python, Numpy, OpenCV, Keras, Tensorflow, Sklearn.",
     "code": "https://github.com/Jjat00/Clasificador-Sanitarios-CNN-Keras",
     "website": "https://github.com/Jjat00/Clasificador-Sanitarios-CNN-Keras/blob/master/SanitaryClassification.ipynb"
   },
   {
     "img": "https://i.ibb.co/X7gw0rD/pcrf.png",
-    "title": "PERFILACIÓN LASER",
-    "description": "La perfilación laser es una técnica de visión artifial para hacer reconstrucción 3D. En este proyecto se muestra como generar una nube de puntos 3D a partir de un conjunto de imágenes de perfilación laser.",
+    "title": "Recontrucción 3D con Perfilación Laser",
+    "description": "La perfilación laser es una técnica de visión artifial para hacer reconstrucción 3D. Este proyecto muestra cómo generar una nube de puntos 3D a partir de un conjunto de imágenes de perfilación laser.",
     "technologies": "Python, Vedo, Numpy, OpenCV",
     "code": "https://github.com/Jjat00/Nube-puntos-desde-imagenes-perfilacion-laser",
     "website": "https://github.com/Jjat00/Nube-puntos-desde-imagenes-perfilacion-laser"

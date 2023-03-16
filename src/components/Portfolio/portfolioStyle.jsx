@@ -21,12 +21,19 @@ export const PortfolioContainer = styled.section`
   .wrapper-cards {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin: 0 auto;
     padding: 20px 0;
     align-items: center;
     justify-content: center;
     align-content: center;
+  }
+
+  @media (max-width: 800px) {
+    .wrapper-cards {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `;

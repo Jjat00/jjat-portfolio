@@ -17,6 +17,7 @@ const Home = () => {
       <ParticleBackground />
       <Header />
       <MainContainer>
+        <Portfolio contentCards={contentCards} />
         <AboutMe
           name={contentAboutMe.name}
           lastname={contentAboutMe.lastname}
@@ -25,8 +26,6 @@ const Home = () => {
           aboutPicture={contentAboutMe.aboutPicture}
           aboutDescription={contentAboutMe.aboutDescription}
         />
-
-        <Portfolio contentCards={contentCards} />
       </MainContainer>
       <Footer />
     </div>
