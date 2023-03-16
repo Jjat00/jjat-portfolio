@@ -5,13 +5,13 @@ const Footer = () => {
     <FooterContainer>
       <footer>
         <h1>Jaime Aza</h1>
-        <h2>Full stack developer</h2>
+        <h2>Full Stack Developer Engineer</h2>
         <div class="social-media">
-          <a href="/">
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/jaimeaza/" target="_blank">
             <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/JjatDeci" target="_blank">
+            <i class="fa-brands fa-github"></i>
           </a>
         </div>
       </footer>
