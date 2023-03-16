@@ -1,7 +1,7 @@
 [
   {
     "img": "https://i.ibb.co/LRDwGrr/sensor-optmization.jpg",
-    "title": "Optmización de Ubicación de Camaras de Seguridad",
+    "title": "Optimización de Ubicación de Camaras de Seguridad",
     "description": "Determina estratégicamente las posiciones de cámaras de seguridad para cubrir todos los puntos de interés en un área geográfica específica.",
     "technologies": "React.js, Mapbox.js, Styled component, Python, Flask, Sklearn.",
     "code": "/",
@@ -10,7 +10,7 @@
   {
     "img": "https://i.ibb.co/Y7F31kS/lofi-landing.jpg",
     "title": "Lofi Code",
-    "description": "Un sitio web sencillo, sin usar librerias. Por medio del API de youtube se muestra un listado de recomendaciones de Lofi Code.",
+    "description": "Un sitio web sencillo, sin usar librerías. Por medio del API de youtube se muestra un listado de recomendaciones de Lofi Code.",
     "technologies": "HTML5, Javascript, CSS, Youtube API.",
     "code": "https://github.com/Jjat00/lofi-code-landing",
     "website": "https://jjat00.github.io/lofi-code-landing"
