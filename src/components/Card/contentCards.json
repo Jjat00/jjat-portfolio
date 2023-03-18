@@ -1,11 +1,11 @@
 [
   {
-    "img": "https://i.ibb.co/LRDwGrr/sensor-optmization.jpg",
+    "img": "https://i.ibb.co/DY6ppRq/camera-positions.jpg",
     "title": "Optimización de Ubicación de Camaras de Seguridad",
     "description": "Determina estratégicamente las posiciones de cámaras de seguridad para cubrir todos los puntos de interés en un área geográfica específica.",
     "technologies": "React.js, Mapbox.js, Styled component, Python, Flask, Sklearn.",
-    "code": "/",
-    "website": "/"
+    "code": "https://github.com/Jjat00/camera-location-optimization",
+    "website": "https://camera-location-optimization.pages.dev/"
   },
   {
     "img": "https://i.ibb.co/Y7F31kS/lofi-landing.jpg",
@@ -59,7 +59,7 @@
     "img": "https://i.ibb.co/X7gw0rD/pcrf.png",
     "title": "Recontrucción 3D con Perfilación Laser",
     "description": "La perfilación laser es una técnica de visión artifial para hacer reconstrucción 3D. Este proyecto muestra cómo generar una nube de puntos 3D a partir de un conjunto de imágenes de perfilación laser.",
-    "technologies": "Python, Vedo, Numpy, OpenCV",
+    "technologies": "Python, Vedo, Numpy, OpenCV.",
     "code": "https://github.com/Jjat00/Nube-puntos-desde-imagenes-perfilacion-laser",
     "website": "https://github.com/Jjat00/Nube-puntos-desde-imagenes-perfilacion-laser"
   }

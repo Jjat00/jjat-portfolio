@@ -70,7 +70,7 @@ export const CardContainer = styled.article`
     cursor: pointer;
     font-size: 2rem;
     margin: 0 10px;
-    text-decoration: none;
+    /* text-decoration: none; */
   }
 
   .links a:first-child {
@@ -78,5 +78,9 @@ export const CardContainer = styled.article`
   }
   .links a:nth-child(2) {
     color: #e6627a;
+  }
+
+  .links a:hover {
+    color: var(--white);
   }
 `;
