@@ -22,6 +22,8 @@ const Home = () => {
           lastname={contentAboutMe.lastname}
           information={contentAboutMe.information}
           mainPicture={contentAboutMe.mainPicture}
+          linkedIn={contentAboutMe.linkedIn}
+          github={contentAboutMe.github}
           aboutPicture={contentAboutMe.aboutPicture}
           aboutDescription={contentAboutMe.aboutDescription}
         />

@@ -41,6 +41,18 @@ export const InfoContainer = styled.section`
     justify-self: end;
   }
 
+  .social-media {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .social-media a {
+    color: #fff;
+    font-size: 3rem;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+
   @media (max-width: 1142px) {
     margin: 20px auto;
 

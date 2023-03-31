@@ -7,6 +7,8 @@ const AboutMe = ({
   mainPicture,
   aboutPicture,
   aboutDescription,
+  linkedIn,
+  github,
 }) => {
   return (
     <>
@@ -16,6 +18,14 @@ const AboutMe = ({
             <span>{name}</span> {lastname}
           </h1>
           <p>{information}</p>
+          <div class="social-media">
+            <a href={linkedIn} target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href={github} target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
         </div>
         <img src={mainPicture} alt="main picture" className="img-jjat" />
       </InfoContainer>
