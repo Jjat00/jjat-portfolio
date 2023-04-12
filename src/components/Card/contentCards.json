@@ -4,7 +4,7 @@
     "title": "Optimización de Ubicación de Camaras de Seguridad",
     "description": "Determina estratégicamente las posiciones de cámaras de seguridad para cubrir todos los puntos de interés en un área geográfica específica.",
     "technologies": "React.js, Mapbox.js, CSS, Python, Flask, Sklearn.",
-    "code": "https://github.com/Jjat00/camera-location-optimization",
+    "code": "/",
     "website": "https://camera-location-optimization.pages.dev/"
   },
   {
