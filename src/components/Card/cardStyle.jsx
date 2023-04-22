@@ -20,7 +20,6 @@ export const CardContainer = styled.article`
   }
 
   &:hover {
-    background-color: #242424;
     .card-title {
       color: var(--secondary-color);
     }
