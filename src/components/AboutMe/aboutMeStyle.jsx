@@ -39,6 +39,7 @@ export const InfoContainer = styled.section`
     border-radius: 70%;
     background-color: var(--primary-color);
     justify-self: end;
+    aspect-ratio: 1/1;
   }
 
   .social-media {
@@ -96,6 +97,7 @@ export const AboutMeContainer = styled.section`
     border: 3px solid var(--secondary-color);
     box-shadow: 0px 0px 10px var(--secondary-color);
     border-radius: 50%;
+    aspect-ratio: 1/1;
   }
   @media (max-width: 1142px) {
     margin: 20px auto;
