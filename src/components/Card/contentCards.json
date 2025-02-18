@@ -1,0 +1,66 @@
+[
+  {
+    "img": "https://i.ibb.co/DY6ppRq/camera-positions.jpg",
+    "title": "Optimización de ubicación de cámaras de seguridad",
+    "description": "Determina estratégicamente las ubicaciones de cámaras de seguridad para cubrir todos los puntos de interés en un área geográfica específica.",
+    "technologies": "React.js, Mapbox.js, CSS, Python, Flask, Sklearn.",
+    "code": "/",
+    "website": "https://camera-location-optimization.pages.dev/"
+  },
+  {
+    "img": "https://i.ibb.co/WnB6ZVw/greendragon.jpg",
+    "title": "Green dragon",
+    "description": "Recolecta información de inventario e inspecciones de campo, detecta y cuantifica emisiones de gas, y establece líneas base para la evaluación de la prevención y control de fugas.",
+    "technologies": "React, Node, Python, Flask, Express, S3, EC2, PostgreSQL, MongoDB, Flask, Redux, SWR, Docker, Mapbox.js.",
+    "code": "/",
+    "website": "/"
+  },
+  {
+    "img": "https://i.ibb.co/h2DC2pk/tutorial-color-point-cloud.jpg",
+    "title": "Fusión de imágenes RGB y de profundidad.",
+    "description": "Presenta la teoría para generar una nube de puntos a partir de imágenes de profundidad, como asignar color a la nube de puntos y scripts en Python.",
+    "technologies": "HTML5, CSS, Javascript, Python, Numpy, OpenCV, Freenect.",
+    "code": "https://github.com/Jjat00/web-page-depth-to-point-cloud",
+    "website": "https://jjat00.github.io/web-page-depth-to-point-cloud/tutorials.html"
+  },
+  {
+    "img": "https://i.ibb.co/Y7F31kS/lofi-landing.jpg",
+    "title": "Lofi code",
+    "description": "Un sitio web sencillo, sin usar librerías. Por medio del API de youtube se muestra un listado de recomendaciones de Lofi Code.",
+    "technologies": "HTML5, Javascript, CSS, Youtube API.",
+    "code": "https://github.com/Jjat00/lofi-code-landing",
+    "website": "https://jjat00.github.io/lofi-code-landing"
+  },
+  {
+    "img": "https://i.ibb.co/3vMrLsj/batatabit.jpg",
+    "title": "Batatabit",
+    "description": "Web page realizada usando mobile first, se hizo la maquetación de la página a partir del diseño en figma. Para el estilo se usó la metodología de nomenclatura BEM.",
+    "technologies": "HTML5, CSS.",
+    "code": "https://github.com/Jjat00/batatabit",
+    "website": "https://jjat00.github.io/batatabit/"
+  },
+  {
+    "img": "https://i.ibb.co/9wyYdYg/captura-deptherm.png",
+    "title": "Deptherm inspection",
+    "description": "Permite hacer inspección termográfica en 3D. También permite hacer calibración de cámaras, fusión de imágenes RGB-térmica, RGB-profundidad, térmica-profundidad, RGB-térmica-profundidad.",
+    "technologies": "Python, Vedo, Numpy, OpenCV, Kinect camera, PyQT, PostresSQL, Qt Designer.",
+    "code": "https://github.com/Jjat00/Deptherm-Inspection",
+    "website": "https://github.com/Jjat00/Deptherm-Inspection"
+  },
+  {
+    "img": "https://i.ibb.co/W5Q38Qb/nural-network-05.jpg",
+    "title": "Clasificador usando redes convolucionales",
+    "description": "CNN que clasifica 5 tipos de sanitarios (A, B, C, D y E) para facilitar el etiquetado durante la producción de los sanitarios.",
+    "technologies": "Python, Numpy, OpenCV, Keras, Tensorflow, Sklearn.",
+    "code": "https://github.com/Jjat00/Clasificador-Sanitarios-CNN-Keras",
+    "website": "https://github.com/Jjat00/Clasificador-Sanitarios-CNN-Keras/blob/master/SanitaryClassification.ipynb"
+  },
+  {
+    "img": "https://i.ibb.co/X7gw0rD/pcrf.png",
+    "title": "Reconstrucción 3D con perfilación láser",
+    "description": "La perfilación láser es una técnica de visión artificial para hacer reconstrucción 3D. Este proyecto muestra cómo generar una nube de puntos 3D a partir de un conjunto de imágenes de perfilación laser.",
+    "technologies": "Python, Vedo, Numpy, OpenCV.",
+    "code": "https://github.com/Jjat00/Nube-puntos-desde-imagenes-perfilacion-laser",
+    "website": "https://github.com/Jjat00/Nube-puntos-desde-imagenes-perfilacion-laser"
+  }
+]
