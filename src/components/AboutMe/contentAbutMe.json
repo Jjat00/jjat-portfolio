@@ -1,10 +1,10 @@
 {
   "name": "Jaime",
   "lastname": "Aza",
-  "information": "Soy un desarrollador de software full stack experiencia en React.js, Node.js y Python. En este sitio web puedes ver algunos de los proyectos que he realizado 🧑‍💻.",
-  "mainPicture": "https://i.ibb.co/d5Q6zfd/IMG-6788-2.jpg",
+  "information": "Soy ingeniero desarrollador de software full stack con experiencia en React.js, Node.js y Python. En este sitio web puedes ver algunos de los proyectos que he realizado 🧑‍💻.",
+  "mainPicture": "./../../images/jjat_1.jpg",
   "linkedIn": "https://www.linkedin.com/in/jaimeaza/",
   "github": "https://github.com/JjatDeci",
-  "aboutPicture": "https://i.ibb.co/n6GzzS9/IMG-6768.jpg",
-  "aboutDescription": "Vivo en Cumbal, Colombia, un pueblo frío pero agradable. Trabajo remotamente, me gusta viajar. En mi tiempo libre, disfruto hacer cursos para aumentar mis skills técnicas y blandas 📚."
+  "aboutPicture": "./../../images/jjat_2.jpg",
+  "aboutDescription": "Vivo en Cumbal, Colombia, un pueblo frío pero agradable. Trabajo remotamente, me gusta salir y conocer nuevos luguares. En mi tiempo libre, disfruto hacer ejercicio 🏋️💪 y  hacer cursos para aumentar mis skills técnicas y blandas 📚."
 }

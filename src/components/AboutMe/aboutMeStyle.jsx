@@ -103,11 +103,17 @@ export const AboutMeContainer = styled.section`
   background-color: var(--primary-color);
   overflow: hidden;
 
-  .img-jjat2 {
+  .img-jjat2-container {
     width: 500px;
-    height: auto;
     border: 3px solid var(--secondary-color);
     box-shadow: 0px 0px 10px var(--secondary-color);
+    overflow: hidden;
+  }
+
+  .img-jjat2 {
+    width: 100%;
+    scale: 1.5;
+    height: auto;
     object-fit: cover;
   }
 

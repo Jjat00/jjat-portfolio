@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { SECONDARY_COLOR } from "../../utils/const";
 
 export const ChatbotWrapper = styled.div`
   position: fixed;
@@ -89,11 +88,12 @@ export const ChatButton = styled.button`
   position: fixed;
   bottom: 40px;
   right: 40px;
-  color: white;
+  color: #ffffff;
   border: none;
   padding: 10px;
   border-radius: 1rem;
   font-size: 2rem;
+  background: #535353;
   cursor: pointer;
 
   @media (max-width: 768px) {
@@ -103,7 +103,7 @@ export const ChatButton = styled.button`
 `;
 
 export const SendButton = styled.button`
-  background: ${SECONDARY_COLOR};
+  background: var(--secondary-color);
   color: #000000;
   border: none;
   padding: 10px 15px; // Adjusted padding

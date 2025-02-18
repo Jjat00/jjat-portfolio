@@ -1,4 +1,6 @@
 import { InfoContainer, AboutMeContainer } from "./aboutMeStyle";
+import jjatImage from "../../images/jjat_1.jpg";
+import JjatImage2 from "../../images/jjat_2.jpg";
 
 const AboutMe = ({
   name,
@@ -28,11 +30,13 @@ const AboutMe = ({
           </div>
         </div>
         <div className="img-container">
-          <img src={mainPicture} alt="main picture" className="img-jjat" />
+          <img src={jjatImage} alt="main picture" className="img-jjat" />
         </div>
       </InfoContainer>
       <AboutMeContainer id="about">
-        <img src={aboutPicture} alt="about picture" className="img-jjat2" />
+        <div class="img-jjat2-container">
+          <img class="img-jjat2" src={JjatImage2} alt="description" />
+        </div>
         <div className="info-about-me">
           <h1>Sobre mí</h1>
           <div className="divider"></div>
