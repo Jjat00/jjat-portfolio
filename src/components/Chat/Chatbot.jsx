@@ -2,19 +2,6 @@ import React, { useState } from "react";
 
 import { fetchOpenAIResponse } from "../../services/chatBot";
 
-import {
-  ChatbotWrapper,
-  ChatHeader,
-  CloseButton,
-  ChatBody,
-  MessageContainer,
-  MessageBubble,
-  ChatInputWrapper,
-  ChatInput,
-  ChatButton,
-  SendButton,
-} from "./ChatboyStyle";
-
 const Chatbot = ({ context }) => {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState([]);
@@ -50,7 +37,6 @@ const Chatbot = ({ context }) => {
   };
 
   const handleSendButtonClick = async () => {
-    // New function for button click
     if (input.trim()) {
       setMessages([
         ...messages,
@@ -65,35 +51,71 @@ const Chatbot = ({ context }) => {
 
   return (
     <>
-      <ChatButton onClick={toggleChat}>Chat ✨</ChatButton>
-      <ChatbotWrapper open={open}>
-        <ChatHeader>
-          <span>Chatbot</span>
-          <CloseButton onClick={closeChat}>✖</CloseButton>
-        </ChatHeader>
-        <ChatBody>
+      {/* Botón de chat flotante */}
+      <button
+        onClick={toggleChat}
+        className="fixed bottom-10 right-10 md:bottom-10 md:right-10 bg-gray-800 hover:bg-gray-700 text-white text-2xl px-4 py-3 rounded-full shadow-lg transition-all duration-300 hover:shadow-sky-500/20 flex items-center gap-2 z-50"
+      >
+        <span>Chat</span>
+        <span className="text-yellow-300">✨</span>
+      </button>
+
+      {/* Ventana de chat */}
+      <div
+        className={`fixed bottom-5 right-5 w-[350px] md:w-[400px] bg-gray-900 text-white rounded-xl shadow-2xl shadow-sky-500/10 overflow-hidden z-50 transition-all duration-300 transform ${
+          open
+            ? "scale-100 opacity-100"
+            : "scale-95 opacity-0 pointer-events-none"
+        }`}
+      >
+        {/* Encabezado del chat */}
+        <div className="bg-gray-800 px-4 py-3 flex justify-between items-center border-b border-gray-700">
+          <span className="font-medium text-sky-400">Chatbot</span>
+          <button
+            onClick={closeChat}
+            className="text-gray-400 hover:text-white transition-colors"
+          >
+            ✖
+          </button>
+        </div>
+
+        {/* Cuerpo del chat con mensajes */}
+        <div className="p-4 h-[400px] md:h-[400px] overflow-y-auto bg-gray-900/90">
           {messages.map((msg, index) => (
-            <MessageContainer key={index} sender={msg.sender}>
-              <MessageBubble
-                sender={msg.sender}
+            <div
+              key={index}
+              className={`mb-4 flex ${msg.sender === "user" ? "justify-end" : "justify-start"}`}
+            >
+              <div
+                className={`max-w-[80%] px-4 py-2 rounded-lg ${
+                  msg.sender === "user"
+                    ? "bg-sky-600 text-white rounded-tr-none"
+                    : "bg-gray-800 text-gray-100 rounded-tl-none"
+                }`}
                 dangerouslySetInnerHTML={{ __html: msg.text }}
-              />{" "}
-              {/* Render HTML */}
-            </MessageContainer>
+              />
+            </div>
           ))}
-        </ChatBody>
-        <ChatInputWrapper>
-          <ChatInput
+        </div>
+
+        {/* Área de entrada de texto */}
+        <div className="flex border-t border-gray-700">
+          <input
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleSendMessage}
             placeholder="Escribe un mensaje..."
+            className="flex-1 px-4 py-3 bg-gray-800 text-white placeholder-gray-500 focus:outline-none"
           />
-          <SendButton onClick={handleSendButtonClick}>Enviar</SendButton>{" "}
-          {/* Send button */}
-        </ChatInputWrapper>
-      </ChatbotWrapper>
+          <button
+            onClick={handleSendButtonClick}
+            className="bg-sky-500 hover:bg-sky-600 text-white px-4 py-2 transition-colors"
+          >
+            Enviar
+          </button>
+        </div>
+      </div>
     </>
   );
 };

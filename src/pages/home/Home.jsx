@@ -1,7 +1,6 @@
 // Components
 import AboutMe from "../../components/AboutMe";
 import Portfolio from "../../components/Portfolio";
-import ParticleBackground from "../../components/ParticleBackground";
 import Chatbot from "../../components/Chat/Chatbot";
 // Pages
 import Header from "./../../components/Header";
@@ -10,15 +9,12 @@ import Footer from "./../../components/Footer";
 import contentCards from "../../components/Card/contentCards.json";
 import contentAboutMe from "../../components/AboutMe/contentAbutMe.json";
 import { contextChatBot } from "../../utils/createContextChatbot";
-// Styles
-import { MainContainer } from "./HomeStyle";
 
 const Home = () => {
   return (
     <div>
-      <ParticleBackground />
       <Header />
-      <MainContainer>
+      <div>
         <AboutMe
           name={contentAboutMe.name}
           lastname={contentAboutMe.lastname}
@@ -36,7 +32,7 @@ const Home = () => {
             contentAboutMe,
           })}
         />
-      </MainContainer>
+      </div>
       <Footer />
     </div>
   );
