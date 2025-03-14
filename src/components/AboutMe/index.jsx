@@ -6,8 +6,6 @@ const AboutMe = ({
   name,
   lastname,
   information,
-  mainPicture,
-  aboutPicture,
   aboutDescription,
   linkedIn,
   github,
@@ -34,8 +32,8 @@ const AboutMe = ({
         </div>
       </InfoContainer>
       <AboutMeContainer id="about">
-        <div class="img-jjat2-container">
-          <img class="img-jjat2" src={JjatImage2} alt="description" />
+        <div className="img-jjat2-container">
+          <img className="img-jjat2" src={JjatImage2} alt="description" />
         </div>
         <div className="info-about-me">
           <h1>Sobre mí</h1>
